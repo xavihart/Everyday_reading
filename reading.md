@@ -7,3 +7,4 @@
 - iGibson 2.0: Object-Centric Simulation for Robot Learning of Everyday Household Tasks
 - Spatial Transformer Networks
 - Point-Voxel CNN for Efficient 3D Deep Learning
+- https://xbpeng.github.io/projects/SFV/
