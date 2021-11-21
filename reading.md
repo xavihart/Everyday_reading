@@ -1,4 +1,6 @@
 
+# PAPERS
+
 
 - MarioNette: Self-Supervised Sprite Learning (NIPS2021)
   - RGB scene decompose, sprite learning
@@ -13,3 +15,10 @@
   -  RL from pixel, contrastive learning, moco style
 - Learning Motion Priors for 4D Human Body Capture in 3D Scenes
   - pose estimation, smoothing
+
+
+# Conference Tutorials / Lectures
+
+- MIT Deep Learning Seminar highlighting recent work (January 2020) by Animesh Garg
+- CVPR workshop on solution to general robot by Pieter Abbeel
+- RSS 2020 KeyNotes of Cognitive Core for Robot Learning by Josh Tenenbaum
