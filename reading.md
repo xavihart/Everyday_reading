@@ -25,6 +25,8 @@
 
   - learn from task-agnostic manipulations
 
+- Enhancing Machine Translation with Dependency-Aware Self-Attention
+  - NLP, syntactically-enhanced Transformer
 
 # Conference Tutorials / Lectures
 
