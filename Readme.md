@@ -1,20 +1,48 @@
-
 # PAPERS
 
+[toc]
 
-- MarioNette: Self-Supervised Sprite Learning (NIPS2021)
-  - RGB scene decompose, sprite learning
-- GROUNDING PHYSICAL CONCEPTS OF OBJECTS AND EVENTS THROUGH DYNAMIC VISUAL REASONING (ICLR2021)
+
+## Vision
+
+### 3D Perception / NeRF
 - Unsupervised Discovery of Object Radiance Fields
-- iGibson 2.0: Object-Centric Simulation for Robot Learning of Everyday Household Tasks
 - Spatial Transformer Networks
 - Point-Voxel CNN for Efficient 3D Deep Learning
-- SFV: Reinforcement Learning of Physical Skills from Videos
-  - video -> pose -> imitation for robot
-- CURL: Contrastive Unsupervised Representations for Reinforcement Learning
-  -  RL from pixel, contrastive learning, moco style
+
+### ViT pretrain
+
+
+### Video Understanding / Motion Analysis
 - Learning Motion Priors for 4D Human Body Capture in 3D Scenes
   - pose estimation, smoothing
+
+
+### Unsupervised Learning
+
+
+
+
+
+## NLP
+
+### Syntactic Learning
+- Enhancing Machine Translation with Dependency-Aware Self-Attention
+  - NLP, syntactically-enhanced Transformer
+
+
+### Machine Translation
+
+
+
+
+
+## Robot Learning
+
+### RL-based
+- CURL: Contrastive Unsupervised Representations for Reinforcement Learning
+  -  RL from pixel, contrastive learning, moco style
+
 
 - Dynamics Learning with Cascaded Variational Inference for Multi-Step Manipulation (CoRL 2019)
   - sequential task for robots, subgoals
@@ -25,8 +53,26 @@
 
   - learn from task-agnostic manipulations
 
-- Enhancing Machine Translation with Dependency-Aware Self-Attention
-  - NLP, syntactically-enhanced Transformer
+
+### Dynamic-based
+
+
+
+### Generalized Learning
+
+- MarioNette: Self-Supervised Sprite Learning (NIPS2021) :white_check_mark:
+  - RGB scene decompose, sprite learning
+
+- Grounding Physical Concepts of Objects and Events Through Dynamic Visual Reasoning (ICLR2021)
+
+- iGibson 2.0: Object-Centric Simulation for Robot Learning of Everyday Household Tasks
+
+- Point-Voxel CNN for Efficient 3D Deep Learning
+- SFV: Reinforcement Learning of Physical Skills from Videos
+  - video -> pose -> imitation for robot
+
+
+
 
 # Conference Tutorials / Lectures
 
