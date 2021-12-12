@@ -1,4 +1,4 @@
-# PAPERS
+# PAPER READING :cat:
 
 [toc]
 
@@ -6,16 +6,41 @@
 ## Vision
 
 ### 3D Perception / NeRF
+
 - Unsupervised Discovery of Object Radiance Fields
+
 - Spatial Transformer Networks
+
 - Point-Voxel CNN for Efficient 3D Deep Learning
 
+- GRF
+
+- NeX
+
+- pixel-NeRF
+
+- Plenoxels: Radiance Fields without Neural Networks :white_check_mark:
+
+  - No Neural Nets, 100 times faster on training 
+  - Data Structure: Sparse Voxel = (Spherical Harmonic Basis + Opacity)
+  - Rendering: Neural Rendering, Trilinear Interpolation
+  - Optimization: reconstruction loss + total variation loss (smooth variation)
+  - Key: the paper demonstrate that : the soa performance on novel view synthesis of NeRF lies on the Neural Rendering Reconstruction, but not on NN.
+
+- D-NeRF: Neural Radiance Fields for Dynamic Scenes (CVPR2021)
+
+  
+
+
+
 ### ViT pretrain
+
 
 
 ### Video Understanding / Motion Analysis
 - Learning Motion Priors for 4D Human Body Capture in 3D Scenes
   - pose estimation, smoothing
+
 
 
 ### Unsupervised Learning
@@ -27,7 +52,7 @@
 ## NLP
 
 ### Syntactic Learning
-- Enhancing Machine Translation with Dependency-Aware Self-Attention
+- Enhancing Machine Translation with Dependency-Aware Self-Attention :white_check_mark:
   - NLP, syntactically-enhanced Transformer
 
 
@@ -37,24 +62,35 @@
 
 
 
+
 ## Robot Learning
 
 ### RL-based
-- CURL: Contrastive Unsupervised Representations for Reinforcement Learning
+- CURL: Contrastive Unsupervised Representations for Reinforcement Learning :white_check_mark:
   -  RL from pixel, contrastive learning, moco style
 
 
-- Dynamics Learning with Cascaded Variational Inference for Multi-Step Manipulation (CoRL 2019)
-  - sequential task for robots, subgoals
+- Dynamics Learning with Cascaded Variational Inference for Multi-Step Manipulation (CoRL 2019) :white_check_mark:
+  - sequential task for robots, subgoals 
   - C : latent effect space (subgoals), Z: latent motion space (actions), ~N(0, 1)
   - two levels
     - high level task : subgoals -> target states(s_t) : p(s_t|s, c)
     - low level task : actions -> subgoals a~p(s_t|s, c, z) 
-
-  - learn from task-agnostic manipulations
-
+- learn from task-agnostic manipulations
+- Reinforcement and Imitation Learning for Diverse Visuomotor Skills (2018)
+- 
 
 ### Dynamic-based
+
+
+
+
+
+## Multi-modal
+
+- Making Sense of Vision and Touch: Self-Supervised Learning of Multimodal Representations for Contact-Rich Tasks (2019)
+- 
+
 
 
 
@@ -68,7 +104,7 @@
 - iGibson 2.0: Object-Centric Simulation for Robot Learning of Everyday Household Tasks
 
 - Point-Voxel CNN for Efficient 3D Deep Learning
-- SFV: Reinforcement Learning of Physical Skills from Videos
+- SFV: Reinforcement Learning of Physical Skills from Videos :white_check_mark:
   - video -> pose -> imitation for robot
 
 
