@@ -29,6 +29,8 @@
 
 - D-NeRF: Neural Radiance Fields for Dynamic Scenes (CVPR2021)
 
+- PlenOctTree
+
   
 
 
@@ -44,6 +46,15 @@
 
 
 ### Unsupervised Learning
+
+
+
+
+
+### GAN
+
+- GAN-Supervised Dense Visual Alignment (Junyan Zhu 2021.12 arxiv)
+  -  Image/Video Align : learn a transformation to congeal a image 
 
 
 
@@ -93,19 +104,16 @@
 
 
 
-
-### Generalized Learning
+### Generalized Learning / Intuitive Physics / Cognition
 
 - MarioNette: Self-Supervised Sprite Learning (NIPS2021) :white_check_mark:
   - RGB scene decompose, sprite learning
-
 - Grounding Physical Concepts of Objects and Events Through Dynamic Visual Reasoning (ICLR2021)
-
 - iGibson 2.0: Object-Centric Simulation for Robot Learning of Everyday Household Tasks
-
 - Point-Voxel CNN for Efficient 3D Deep Learning
 - SFV: Reinforcement Learning of Physical Skills from Videos :white_check_mark:
   - video -> pose -> imitation for robot
+- Modeling Expectation Violation in Intuitive Physics with Coarse Probabilistic Object Representations (2019 Josh Group)
 
 
 
