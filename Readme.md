@@ -1,25 +1,55 @@
 # PAPER READING :cat:
 
-[toc]
+* [PAPER READING <g-emoji class="g-emoji" alias="cat" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f431.png">🐱</g-emoji>](#paper-reading-cat)
+   * [Vision](#vision)
+      * [3D Perception / NeRF](#3d-perception--nerf)
+         * [Spatial Transformer Networks<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#spatial-transformer-networkswhite_check_mark)
+         * [Point-Voxel CNN for Efficient 3D Deep Learning<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#point-voxel-cnn-for-efficient-3d-deep-learningwhite_check_mark)
+         * [GRF](#grf)
+         * [NeX<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#nexwhite_check_mark)
+         * [pixel-NeRF<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">
+✅</g-emoji>](#pixel-nerfwhite_check_mark)
+         * [Plenoxels: Radiance Fields without Neural Networks <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#plenoxels-radiance-fields-without-neural-networks-white_check_mark)
+         * [D-NeRF: Neural Radiance Fields for Dynamic Scenes (CVPR2021)](#d-nerf-neural-radiance-fields-for-dynamic-scenes-cvpr2021)
+         * [PlenOctTree <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#plenocttree-white_check_mark)
+      * [ViT pretrain](#vit-pretrain)
+      * [Video Understanding / Motion Analysis](#video-understanding--motion-analysis)
+         * [Learning Motion Priors for 4D Human Body Capture in 3D Scenes](#learning-motion-priors-for-4d-human-body-capture-in-3d-scenes)
+         * [Object-Centric Learning with Slot Attention (NIPS 2020)](#object-centric-learning-with-slot-attention-nips-2020)
+         * [Unsupervised Discovery of Object Radiance Fields (Jiajun group 2021)](#unsupervised-discovery-of-object-radiance-fields-jiajun-group-2021)
+      * [Unsupervised Learning](#unsupervised-learning)
+      * [GAN](#gan)
+         * [GAN-Supervised Dense Visual Alignment (Junyan Zhu 2021.12 arxiv)](#gan-supervised-dense-visual-alignment-junyan-zhu-202112-arxiv)
+   * [NLP](#nlp)
+      * [Syntactic Learning](#syntactic-learning)
+         * [Enhancing Machine Translation with Dependency-Aware Self-Attention <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#enhancing-machine-translation-with-dependency-aware-self-attention-white_check_mark)
+      * [Machine Translation](#machine-translation)
+   * [Robot Learning](#robot-learning)
+      * [RL-based](#rl-based)
+         * [CURL: Contrastive Unsupervised Representations for Reinforcement Learning <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#curl-contrastive-unsupervised-representations-for-reinforcement-learning-white_check_mark)
+         * [Dynamics Learning with Cascaded Variational Inference for Multi-Step Manipulation (CoRL 2019) <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#dynamics-learning-with-cascaded-variational-inference-for-multi-step-manipulation-corl-2019-white_check_mark)
+      * [Dynamic-based](#dynamic-based)
+         * [Learning to Simulate Complex Physics with Graph Networks](#learning-to-simulate-complex-physics-with-graph-networks)
+   * [Multi-modal](#multi-modal)
+      * [Generalized Learning / Intuitive Physics / Cognition](#generalized-learning--intuitive-physics--cognition)
+* [Conference Tutorials / Lectures](#conference-tutorials--lectures)
 
 
 ## Vision
 
 ### 3D Perception / NeRF
 
-- Unsupervised Discovery of Object Radiance Fields
+#### Spatial Transformer Networks:white_check_mark:
 
-- Spatial Transformer Networks:white_check_mark:
+#### Point-Voxel CNN for Efficient 3D Deep Learning:white_check_mark:
 
-- Point-Voxel CNN for Efficient 3D Deep Learning:white_check_mark:
+#### GRF
 
-- GRF
+#### NeX:white_check_mark:
 
-- NeX:white_check_mark:
+#### pixel-NeRF:white_check_mark:
 
-- pixel-NeRF:white_check_mark:
-
-- Plenoxels: Radiance Fields without Neural Networks :white_check_mark:
+#### Plenoxels: Radiance Fields without Neural Networks :white_check_mark:
 
   - No Neural Nets, 100 times faster on training 
   - Data Structure: Sparse Voxel = (Spherical Harmonic Basis + Opacity)
@@ -27,14 +57,14 @@
   - Optimization: reconstruction loss + total variation loss (smooth variation)
   - Key: the paper demonstrate that : the soa performance on novel view synthesis of NeRF lies on the Neural Rendering Reconstruction, but not on NN.
 
-- D-NeRF: Neural Radiance Fields for Dynamic Scenes (CVPR2021)
+#### D-NeRF: Neural Radiance Fields for Dynamic Scenes (CVPR2021)
 
-- PlenOctTree :white_check_mark:
+#### PlenOctTree :white_check_mark:
 
   - real-time nerf rendering, OCTree structure
   - using spherical harmonic basis to encode view-dependent effects, which is much faster than conventional NeRF rendering where NN inference is needed 
   - learn F: (x, y, z) -> (SHs, $\sigma$)
-  
+
   
 
 
@@ -44,8 +74,10 @@
 
 
 ### Video Understanding / Motion Analysis
-- Learning Motion Priors for 4D Human Body Capture in 3D Scenes
+#### Learning Motion Priors for 4D Human Body Capture in 3D Scenes
   - pose estimation, smoothing
+#### Object-Centric Learning with Slot Attention (NIPS 2020)
+#### Unsupervised Discovery of Object Radiance Fields (Jiajun group 2021)
 
 
 
@@ -57,7 +89,7 @@
 
 ### GAN
 
-- GAN-Supervised Dense Visual Alignment (Junyan Zhu 2021.12 arxiv)
+#### GAN-Supervised Dense Visual Alignment (Junyan Zhu 2021.12 arxiv)
   -  Image/Video Align : learn a transformation to congeal a image 
 
 
@@ -67,7 +99,7 @@
 ## NLP
 
 ### Syntactic Learning
-- Enhancing Machine Translation with Dependency-Aware Self-Attention :white_check_mark:
+#### Enhancing Machine Translation with Dependency-Aware Self-Attention :white_check_mark:
   - NLP, syntactically-enhanced Transformer
 
 
@@ -81,11 +113,11 @@
 ## Robot Learning
 
 ### RL-based
-- CURL: Contrastive Unsupervised Representations for Reinforcement Learning :white_check_mark:
+#### CURL: Contrastive Unsupervised Representations for Reinforcement Learning :white_check_mark:
   -  RL from pixel, contrastive learning, moco style
 
 
-- Dynamics Learning with Cascaded Variational Inference for Multi-Step Manipulation (CoRL 2019) :white_check_mark:
+#### Dynamics Learning with Cascaded Variational Inference for Multi-Step Manipulation (CoRL 2019) :white_check_mark:
   - sequential task for robots, subgoals 
   - C : latent effect space (subgoals), Z: latent motion space (actions), ~N(0, 1)
   - two levels
@@ -96,6 +128,8 @@
 - 
 
 ### Dynamic-based
+
+#### Learning to Simulate Complex Physics with Graph Networks
 
 
 
