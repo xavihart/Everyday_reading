@@ -31,6 +31,10 @@
 
 - PlenOctTree
 
+  - real-time nerf rendering
+  - using spherical harmonic basis to encode view-dependent effects, which is much faster than conventional NeRF rendering where NN inference is needed 
+  - learn F: (x, y, z) -> (SHs, $\sigma$)
+  
   
 
 
