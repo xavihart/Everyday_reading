@@ -9,15 +9,15 @@
 
 - Unsupervised Discovery of Object Radiance Fields
 
-- Spatial Transformer Networks
+- Spatial Transformer Networks:white_check_mark:
 
-- Point-Voxel CNN for Efficient 3D Deep Learning
+- Point-Voxel CNN for Efficient 3D Deep Learning:white_check_mark:
 
 - GRF
 
-- NeX
+- NeX:white_check_mark:
 
-- pixel-NeRF
+- pixel-NeRF:white_check_mark:
 
 - Plenoxels: Radiance Fields without Neural Networks :white_check_mark:
 
@@ -29,9 +29,9 @@
 
 - D-NeRF: Neural Radiance Fields for Dynamic Scenes (CVPR2021)
 
-- PlenOctTree
+- PlenOctTree :white_check_mark:
 
-  - real-time nerf rendering
+  - real-time nerf rendering, OCTree structure
   - using spherical harmonic basis to encode view-dependent effects, which is much faster than conventional NeRF rendering where NN inference is needed 
   - learn F: (x, y, z) -> (SHs, $\sigma$)
   
