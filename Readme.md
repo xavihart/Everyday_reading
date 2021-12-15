@@ -7,11 +7,11 @@
          * [Point-Voxel CNN for Efficient 3D Deep Learning<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#point-voxel-cnn-for-efficient-3d-deep-learningwhite_check_mark)
          * [GRF](#grf)
          * [NeX<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#nexwhite_check_mark)
-         * [pixel-NeRF<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">
-✅</g-emoji>](#pixel-nerfwhite_check_mark)
+         * [pixel-NeRF<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#pixel-nerfwhite_check_mark)
          * [Plenoxels: Radiance Fields without Neural Networks <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#plenoxels-radiance-fields-without-neural-networks-white_check_mark)
          * [D-NeRF: Neural Radiance Fields for Dynamic Scenes (CVPR2021)](#d-nerf-neural-radiance-fields-for-dynamic-scenes-cvpr2021)
          * [PlenOctTree <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#plenocttree-white_check_mark)
+         * [Fast and Explicit Neural View Synthesis](#fast-and-explicit-neural-view-synthesis)
       * [ViT pretrain](#vit-pretrain)
       * [Video Understanding / Motion Analysis](#video-understanding--motion-analysis)
          * [Learning Motion Priors for 4D Human Body Capture in 3D Scenes](#learning-motion-priors-for-4d-human-body-capture-in-3d-scenes)
@@ -66,6 +66,14 @@
   - learn F: (x, y, z) -> (SHs, $\sigma$)
 
   
+
+
+
+#### Fast and Explicit Neural View Synthesis (WACV2021)
+
+- generalized novel view syn, faster rendering
+
+
 
 
 
@@ -187,3 +195,8 @@
   - How to bring pre-traininig into RL
 - RSS 2020 KeyNotes of Cognitive Core for Robot Learning by Josh Tenenbaum
   - 
+
+
+
+
+
