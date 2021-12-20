@@ -77,6 +77,14 @@
 
 
 
+
+
+#### Moving SLAM: Fully Unsupervised Deep Learning in Non-Rigid Scenes（ [Andrea Vedaldi](https://arxiv.org/search/cs?searchtype=author&query=Vedaldi%2C+A)）
+
+
+
+
+
 ### ViT pretrain
 
 
