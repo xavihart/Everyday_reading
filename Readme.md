@@ -11,7 +11,9 @@
          * [Plenoxels: Radiance Fields without Neural Networks <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#plenoxels-radiance-fields-without-neural-networks-white_check_mark)
          * [D-NeRF: Neural Radiance Fields for Dynamic Scenes (CVPR2021)](#d-nerf-neural-radiance-fields-for-dynamic-scenes-cvpr2021)
          * [PlenOctTree <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#plenocttree-white_check_mark)
-         * [Fast and Explicit Neural View Synthesis](#fast-and-explicit-neural-view-synthesis)
+         * [Fast and Explicit Neural View Synthesis (WACV2021)](#fast-and-explicit-neural-view-synthesis-wacv2021)
+         * [Moving SLAM: Fully Unsupervised Deep Learning in Non-Rigid Scenes（ <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Vedaldi%2C+A" rel="nofollow">Andrea Vedaldi</a>）](#moving-slam-fully-unsupervised-deep-learning-in-non-rigid-scenes-andrea-vedaldi)
+         * [Unsupervised Discovery of 3D Physical Objects From Video （jiajun group)](#unsupervised-discovery-of-3d-physical-objects-from-video-jiajun-group)
       * [ViT pretrain](#vit-pretrain)
       * [Video Understanding / Motion Analysis](#video-understanding--motion-analysis)
          * [Learning Motion Priors for 4D Human Body Capture in 3D Scenes](#learning-motion-priors-for-4d-human-body-capture-in-3d-scenes)
@@ -30,6 +32,7 @@
          * [Dynamics Learning with Cascaded Variational Inference for Multi-Step Manipulation (CoRL 2019) <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#dynamics-learning-with-cascaded-variational-inference-for-multi-step-manipulation-corl-2019-white_check_mark)
       * [Dynamic-based](#dynamic-based)
          * [Learning to Simulate Complex Physics with Graph Networks](#learning-to-simulate-complex-physics-with-graph-networks)
+         * [Realtime Trajectory Smoothing with Neural Nets](#realtime-trajectory-smoothing-with-neural-nets)
    * [Multi-modal](#multi-modal)
       * [Generalized Learning / Intuitive Physics / Cognition](#generalized-learning--intuitive-physics--cognition)
 * [Conference Tutorials / Lectures](#conference-tutorials--lectures)
@@ -80,6 +83,18 @@
 
 
 #### Moving SLAM: Fully Unsupervised Deep Learning in Non-Rigid Scenes（ [Andrea Vedaldi](https://arxiv.org/search/cs?searchtype=author&query=Vedaldi%2C+A)）
+
+
+
+
+
+#### Unsupervised Discovery of 3D Physical Objects From Video （jiajun group)
+
+
+
+
+
+
 
 
 
@@ -148,6 +163,8 @@
 #### Learning to Simulate Complex Physics with Graph Networks
 
 
+
+#### Realtime Trajectory Smoothing with Neural Nets
 
 
 
