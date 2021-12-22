@@ -92,6 +92,10 @@
 
 
 
+#### 3D-aware Image Synthesis via Learning Structural and Textural Representations
+
+
+
 
 
 
@@ -166,7 +170,6 @@
 
 #### Realtime Trajectory Smoothing with Neural Nets
 
-<<<<<<< HEAD
 
 
 
@@ -174,9 +177,6 @@
 #### Garment Similarity Network (GarNet): A Continuous Perception Robotic Approach for Predicting Shapes and Visually Perceived Weights of Unseen Garments
 
 
-
-=======
->>>>>>> 4e9b02ea74345ef1c701f41d8ca74d787a829f6c
 
 
 ## Multi-modal
