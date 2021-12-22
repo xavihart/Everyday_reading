@@ -168,6 +168,14 @@
 
 
 
+
+
+#### Garment Similarity Network (GarNet): A Continuous Perception Robotic Approach for Predicting Shapes and Visually Perceived Weights of Unseen Garments
+
+
+
+
+
 ## Multi-modal
 
 - Making Sense of Vision and Touch: Self-Supervised Learning of Multimodal Representations for Contact-Rich Tasks (2019)
