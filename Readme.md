@@ -38,10 +38,8 @@
          * [Learning to Simulate Complex Physics with Graph Networks](#learning-to-simulate-complex-physics-with-graph-networks)
          * [Realtime Trajectory Smoothing with Neural Nets](#realtime-trajectory-smoothing-with-neural-nets)
          * [Garment Similarity Network (GarNet): A Continuous Perception Robotic Approach for Predicting Shapes and Visually Perceived Weights of Unseen Garments](#garment-similarity-network-garnet-a-continuous-perception-robotic-approach-for-predicting-shapes-and-visually-perceived-weights-of-unseen-garments)
-<<<<<<< HEAD
+
          * [Learning Mesh Based Simulation with Graph Neural Networks (ICLR2021 outstanding paper awards)](#learning-mesh-based-simulation-with-graph-neural-networks-iclr2021-outstanding-paper-awards)
-=======
->>>>>>> 4946732ef21f52ca891fcbef83c387c8c8771150
    * [Multi-modal](#multi-modal)
       * [Generalized Learning / Intuitive Physics / Cognition](#generalized-learning--intuitive-physics--cognition)
 * [Conference Tutorials / Lectures](#conference-tutorials--lectures)
@@ -320,7 +318,8 @@
       
     - GRAF: 
     - Train  
-        -  ![image-20220102204848958](C:\Users\38433\AppData\Roaming\Typora\typora-user-images\image-20220102204848958.png)
+      
+      -  ![image-20220102204848958](C:\Users\38433\AppData\Roaming\Typora\typora-user-images\image-20220102204848958.png)
       
     - GIRAFFE : compositional  3d-aware representation
     
