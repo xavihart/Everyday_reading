@@ -11,9 +11,13 @@
          * [Plenoxels: Radiance Fields without Neural Networks <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#plenoxels-radiance-fields-without-neural-networks-white_check_mark)
          * [D-NeRF: Neural Radiance Fields for Dynamic Scenes (CVPR2021)](#d-nerf-neural-radiance-fields-for-dynamic-scenes-cvpr2021)
          * [PlenOctTree <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#plenocttree-white_check_mark)
+         * [GRAF: Generative Radiance Fields for 3D-Aware Image Synthesis](#graf-generative-radiance-fields-for-3d-aware-image-synthesis)
+         * [Girrafe: Representing Scenes as Compositional Generative Neural Feature Fields](#girrafe-representing-scenes-as-compositional-generative-neural-feature-fields)
+         * [CAMPARI: Camera-Aware Decomposed Generative Neural Radiance Fields](#campari-camera-aware-decomposed-generative-neural-radiance-fields)
          * [Fast and Explicit Neural View Synthesis (WACV2021)](#fast-and-explicit-neural-view-synthesis-wacv2021)
          * [Moving SLAM: Fully Unsupervised Deep Learning in Non-Rigid Scenes（ <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Vedaldi%2C+A" rel="nofollow">Andrea Vedaldi</a>）](#moving-slam-fully-unsupervised-deep-learning-in-non-rigid-scenes-andrea-vedaldi)
          * [Unsupervised Discovery of 3D Physical Objects From Video （jiajun group)](#unsupervised-discovery-of-3d-physical-objects-from-video-jiajun-group)
+         * [BANMo: Building Animatable 3D Neural Models from Many Casual Videos](#banmo-building-animatable-3d-neural-models-from-many-casual-videos)
       * [ViT pretrain](#vit-pretrain)
       * [Video Understanding / Motion Analysis](#video-understanding--motion-analysis)
          * [Learning Motion Priors for 4D Human Body Capture in 3D Scenes](#learning-motion-priors-for-4d-human-body-capture-in-3d-scenes)
@@ -33,10 +37,11 @@
       * [Dynamic-based](#dynamic-based)
          * [Learning to Simulate Complex Physics with Graph Networks](#learning-to-simulate-complex-physics-with-graph-networks)
          * [Realtime Trajectory Smoothing with Neural Nets](#realtime-trajectory-smoothing-with-neural-nets)
+         * [Garment Similarity Network (GarNet): A Continuous Perception Robotic Approach for Predicting Shapes and Visually Perceived Weights of Unseen Garments](#garment-similarity-network-garnet-a-continuous-perception-robotic-approach-for-predicting-shapes-and-visually-perceived-weights-of-unseen-garments)
+         * [Learning Mesh Based Simulation with Graph Neural Networks (ICLR2021 outstanding paper awards)](#learning-mesh-based-simulation-with-graph-neural-networks-iclr2021-outstanding-paper-awards)
    * [Multi-modal](#multi-modal)
       * [Generalized Learning / Intuitive Physics / Cognition](#generalized-learning--intuitive-physics--cognition)
 * [Conference Tutorials / Lectures](#conference-tutorials--lectures)
-
 
 ## Vision
 
@@ -68,7 +73,24 @@
   - using spherical harmonic basis to encode view-dependent effects, which is much faster than conventional NeRF rendering where NN inference is needed 
   - learn F: (x, y, z) -> (SHs, $\sigma$)
 
-  
+
+
+
+
+#### GRAF: Generative Radiance Fields for 3D-Aware Image Synthesis
+
+
+
+
+
+#### Girrafe: Representing Scenes as Compositional Generative Neural Feature Fields
+
+
+
+
+
+#### CAMPARI: Camera-Aware Decomposed Generative Neural Radiance Fields
+
 
 
 
@@ -89,6 +111,20 @@
 
 
 #### Unsupervised Discovery of 3D Physical Objects From Video （jiajun group)
+
+
+
+
+
+#### BANMo: Building Animatable 3D Neural Models from Many Casual Videos
+
+
+
+
+
+
+
+
 
 
 
@@ -176,10 +212,27 @@
 
 
 
+
+
+#### Learning Mesh Based Simulation with Graph Neural Networks (ICLR2021 outstanding paper awards)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Multi-modal
 
 - Making Sense of Vision and Touch: Self-Supervised Learning of Multimodal Representations for Contact-Rich Tasks (2019)
-- 
+- Soundify: Matching Sound Effects to Video （CMU）
 
 
 
@@ -227,9 +280,44 @@
   - How to effeciently learn generalized policy from pixels ?
   - How to bring pre-traininig into RL
 - RSS 2020 KeyNotes of Cognitive Core for Robot Learning by Josh Tenenbaum
-  - 
 
 
+
+
+
+
+
+- Generative Neural Scene Representationsfor 3D-Aware Image Synthesis
+
+  - By Andreas Geiger from MPI
+    - We need control over the image generation process ! 
+    
+    - Goal:
+      - generate photorealistic images
+      - control individual objects, appearance, pose, size in 3D
+      - novel view image synthesis
+      - train from raw images without pose information
+      
+    - representation used ?
+      - voxel (PlanoticGAN, iccv2019)
+        - sample -> voxel 3D -> render
+        - low fidelity
+      - deep-voxel (HOLOGAN, iccv2019)
+        - sample -> deep voxel(feature) -> NN + render
+      - generative radiance field
+        - sample -> radiance field -> render
+      
+    - GRAF: 
+    - Train  
+        -  ![image-20220102204848958](C:\Users\38433\AppData\Roaming\Typora\typora-user-images\image-20220102204848958.png)
+      
+    - GIRAFFE : compositional  3d-aware representation
+    
+    - CAMPARI: Camera-Aware Decomposed Generative Neural Radiance Fields
+    
+      
+  
+  
 
 
 
