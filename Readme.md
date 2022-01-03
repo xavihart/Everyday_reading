@@ -5,19 +5,21 @@
       * [3D Perception / NeRF](#3d-perception--nerf)
          * [Spatial Transformer Networks<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#spatial-transformer-networkswhite_check_mark)
          * [Point-Voxel CNN for Efficient 3D Deep Learning<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#point-voxel-cnn-for-efficient-3d-deep-learningwhite_check_mark)
-         * [GRF](#grf)
+         * [GRF<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#grfwhite_check_mark)
          * [NeX<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#nexwhite_check_mark)
          * [pixel-NeRF<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#pixel-nerfwhite_check_mark)
          * [Plenoxels: Radiance Fields without Neural Networks <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#plenoxels-radiance-fields-without-neural-networks-white_check_mark)
-         * [D-NeRF: Neural Radiance Fields for Dynamic Scenes (CVPR2021)](#d-nerf-neural-radiance-fields-for-dynamic-scenes-cvpr2021)
+         * [D-NeRF: Neural Radiance Fields for Dynamic Scenes (CVPR2021)<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#d-nerf-neural-radiance-fields-for-dynamic-scenes-cvpr2021white_check_mark)
          * [PlenOctTree <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#plenocttree-white_check_mark)
-         * [GRAF: Generative Radiance Fields for 3D-Aware Image Synthesis](#graf-generative-radiance-fields-for-3d-aware-image-synthesis)
-         * [Girrafe: Representing Scenes as Compositional Generative Neural Feature Fields](#girrafe-representing-scenes-as-compositional-generative-neural-feature-fields)
-         * [CAMPARI: Camera-Aware Decomposed Generative Neural Radiance Fields](#campari-camera-aware-decomposed-generative-neural-radiance-fields)
-         * [Fast and Explicit Neural View Synthesis (WACV2021)](#fast-and-explicit-neural-view-synthesis-wacv2021)
+         * [GRAF: Generative Radiance Fields for 3D-Aware Image Synthesis <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#graf-generative-radiance-fields-for-3d-aware-image-synthesis-white_check_mark)
+         * [Girrafe: Representing Scenes as Compositional Generative Neural Feature Fields <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#girrafe-representing-scenes-as-compositional-generative-neural-feature-fields-white_check_mark)
+         * [CAMPARI: Camera-Aware Decomposed Generative Neural Radiance Fields<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png"> ✅</g-emoji>](#campari-camera-aware-decomposed-generative-neural-radiance-fieldswhite_check_mark)
+         * [GRAM: Generative Radiance Manifolds for 3D-Aware Image Generation (MSRA)](#gram-generative-radiance-manifolds-for-3d-aware-image-generation-msra)
+         * [Fast and Explicit Neural View Synthesis (WACV2021)<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#fast-and-explicit-neural-view-synthesis-wacv2021white_check_mark)
          * [Moving SLAM: Fully Unsupervised Deep Learning in Non-Rigid Scenes（ <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Vedaldi%2C+A" rel="nofollow">Andrea Vedaldi</a>）](#moving-slam-fully-unsupervised-deep-learning-in-non-rigid-scenes-andrea-vedaldi)
          * [Unsupervised Discovery of 3D Physical Objects From Video （jiajun group)](#unsupervised-discovery-of-3d-physical-objects-from-video-jiajun-group)
          * [BANMo: Building Animatable 3D Neural Models from Many Casual Videos](#banmo-building-animatable-3d-neural-models-from-many-casual-videos)
+         * [Video Autoencoder: self-supervised disentanglement of static 3D structure and motion （Xiaolong Group, ICCV-2021）<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#video-autoencoder-self-supervised-disentanglement-of-static-3d-structure-and-motion-xiaolong-group-iccv-2021white_check_mark)
       * [ViT pretrain](#vit-pretrain)
       * [Video Understanding / Motion Analysis](#video-understanding--motion-analysis)
          * [Learning Motion Priors for 4D Human Body Capture in 3D Scenes](#learning-motion-priors-for-4d-human-body-capture-in-3d-scenes)
@@ -38,8 +40,8 @@
          * [Learning to Simulate Complex Physics with Graph Networks](#learning-to-simulate-complex-physics-with-graph-networks)
          * [Realtime Trajectory Smoothing with Neural Nets](#realtime-trajectory-smoothing-with-neural-nets)
          * [Garment Similarity Network (GarNet): A Continuous Perception Robotic Approach for Predicting Shapes and Visually Perceived Weights of Unseen Garments](#garment-similarity-network-garnet-a-continuous-perception-robotic-approach-for-predicting-shapes-and-visually-perceived-weights-of-unseen-garments)
-
          * [Learning Mesh Based Simulation with Graph Neural Networks (ICLR2021 outstanding paper awards)](#learning-mesh-based-simulation-with-graph-neural-networks-iclr2021-outstanding-paper-awards)
+         * [Garment Similarity Network (GarNet): A Continuous Perception Robotic Approach for Predicting Shapes and Visually Perceived Weights of Unseen Garments](#garment-similarity-network-garnet-a-continuous-perception-robotic-approach-for-predicting-shapes-and-visually-perceived-weights-of-unseen-garments-1)
    * [Multi-modal](#multi-modal)
       * [Generalized Learning / Intuitive Physics / Cognition](#generalized-learning--intuitive-physics--cognition)
 * [Conference Tutorials / Lectures](#conference-tutorials--lectures)
@@ -52,7 +54,7 @@
 
 #### Point-Voxel CNN for Efficient 3D Deep Learning:white_check_mark:
 
-#### GRF
+#### GRF:white_check_mark:
 
 #### NeX:white_check_mark:
 
@@ -66,7 +68,7 @@
   - Optimization: reconstruction loss + total variation loss (smooth variation)
   - Key: the paper demonstrate that : the soa performance on novel view synthesis of NeRF lies on the Neural Rendering Reconstruction, but not on NN.
 
-#### D-NeRF: Neural Radiance Fields for Dynamic Scenes (CVPR2021)
+#### D-NeRF: Neural Radiance Fields for Dynamic Scenes (CVPR2021):white_check_mark:
 
 #### PlenOctTree :white_check_mark:
 
@@ -90,15 +92,16 @@
 
 
 
-#### CAMPARI: Camera-Aware Decomposed Generative Neural Radiance Fields
-
+#### CAMPARI: Camera-Aware Decomposed Generative Neural Radiance Fields:white_check_mark:
 
 #### GRAM: Generative Radiance Manifolds for 3D-Aware Image Generation (MSRA)
 
+#### Fast and Explicit Neural View Synthesis (WACV2021):white_check_mark:
 
-#### Fast and Explicit Neural View Synthesis (WACV2021)
-
-- generalized novel view syn, faster rendering
+- generalized novel view syn, faster rendering(amortized rendering)， voxel-based
+- (3, h, w)-(2D-UNet)-(c, h, w)-(inverse projection)-(c, ds, hs, ws) - (3D UNet)- (4, ds, h, w)
+- why inverse projection / reshape ?
+- my opinion : voxel-based -> fixed resolution, not flexible enough
 
 
 
@@ -119,6 +122,20 @@
 
 
 #### BANMo: Building Animatable 3D Neural Models from Many Casual Videos
+
+
+
+
+
+
+
+#### Video Autoencoder: self-supervised disentanglement of static 3D structure and motion （Xiaolong Group, ICCV-2021）:white_check_mark:
+
+- 
+
+
+
+
 
 
 
@@ -160,7 +177,6 @@
 #### Enhancing Machine Translation with Dependency-Aware Self-Attention :white_check_mark:
   - NLP, syntactically-enhanced Transformer
 
-
 ### Machine Translation
 
 
@@ -197,7 +213,7 @@
 
 
 
-<<<<<<< HEAD
+
 #### Garment Similarity Network (GarNet): A Continuous Perception Robotic Approach for Predicting Shapes and Visually Perceived Weights of Unseen Garments
 
 
@@ -215,10 +231,9 @@
 
 
 
-=======
+
 
 #### Garment Similarity Network (GarNet): A Continuous Perception Robotic Approach for Predicting Shapes and Visually Perceived Weights of Unseen Garments
->>>>>>> 4946732ef21f52ca891fcbef83c387c8c8771150
 
 
 
