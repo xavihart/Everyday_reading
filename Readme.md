@@ -78,13 +78,13 @@
 
 
 
-#### GRAF: Generative Radiance Fields for 3D-Aware Image Synthesis
+#### GRAF: Generative Radiance Fields for 3D-Aware Image Synthesis :white_check_mark:
 
 
 
 
 
-#### Girrafe: Representing Scenes as Compositional Generative Neural Feature Fields
+#### Girrafe: Representing Scenes as Compositional Generative Neural Feature Fields :white_check_mark:
 
 
 
@@ -93,6 +93,7 @@
 #### CAMPARI: Camera-Aware Decomposed Generative Neural Radiance Fields
 
 
+#### GRAM: Generative Radiance Manifolds for 3D-Aware Image Generation (MSRA)
 
 
 #### Fast and Explicit Neural View Synthesis (WACV2021)
