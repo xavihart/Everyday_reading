@@ -129,6 +129,8 @@
 
 
 
+
+
 #### Video Autoencoder: self-supervised disentanglement of static 3D structure and motion （Xiaolong Group, ICCV-2021）:white_check_mark:
 
 - 
@@ -184,14 +186,37 @@
 
 
 
+
+
+
+
+
+## Multi-modal
+
+### Video, Audio, Text
+
+#### One-shot Talking Face Generation from Single-speaker Audio-Visual Correlation Learning :white_check_mark:
+
+- audio-visual correlation transformer (input : phonemes + facial key point-based motion field)
+- really complex system...
+  - phonemes label 
+  - acoustic feature (from some traditional extractor)
+  - structural feature (from pretrained face detector)
+  - head pose predictor
+  - adversarial training
+  - ...
+
+
+
+
 ## Robot Learning
 
 ### RL-based
 #### CURL: Contrastive Unsupervised Representations for Reinforcement Learning :white_check_mark:
   -  RL from pixel, contrastive learning, moco style
 
-
 #### Dynamics Learning with Cascaded Variational Inference for Multi-Step Manipulation (CoRL 2019) :white_check_mark:
+
   - sequential task for robots, subgoals 
   - C : latent effect space (subgoals), Z: latent motion space (actions), ~N(0, 1)
   - two levels
@@ -203,7 +228,20 @@
 
 ### Dynamic-based
 
-#### Learning to Simulate Complex Physics with Graph Networks
+
+
+
+
+#### (ICML 2018, DeepMind)Graph Networks as Learnable Physics Engines for Inference and Control
+
+
+
+
+
+#### (ICML 2020, DeepMind) Learning to Simulate Complex Physics with Graph Networks:white_check_mark:
+
+- GNS framework to learn complex particle-based dynamics system
+  - dpi is specialized on each scene, but one single GNS can work well on many scenes
 
 
 
@@ -213,7 +251,6 @@
 
 
 
-
 #### Garment Similarity Network (GarNet): A Continuous Perception Robotic Approach for Predicting Shapes and Visually Perceived Weights of Unseen Garments
 
 
@@ -222,8 +259,7 @@
 
 
 
-#### Learning Mesh Based Simulation with Graph Neural Networks (ICLR2021 outstanding paper awards)
-
+#### (ICLR2021 outstanding paper awards, DeepMind) Learning Mesh Based Simulation with Graph Neural Networks 
 
 
 
@@ -234,6 +270,8 @@
 
 
 #### Garment Similarity Network (GarNet): A Continuous Perception Robotic Approach for Predicting Shapes and Visually Perceived Weights of Unseen Garments
+
+
 
 
 
@@ -263,7 +301,7 @@
 
 # Conference Tutorials / Lectures
 
-- MIT Deep Learning Seminar highlighting recent work (January 2020) by Animesh Garg
+#### MIT Deep Learning Seminar highlighting recent work (January 2020) by Animesh Garg
   - Generalization of Robot for different bu similar tasks
     - current paradigm: e.g. Deep RL, env + action + states + reward, sampling inefficient and unstable
     - current paradigm: Visuo-motor skills, need to carefully design the robot model for specifc scene
@@ -290,7 +328,7 @@
 - CVPR workshop on solution to general robot by Pieter Abbeel
   - How to effeciently learn generalized policy from pixels ?
   - How to bring pre-traininig into RL
-- RSS 2020 KeyNotes of Cognitive Core for Robot Learning by Josh Tenenbaum
+#### RSS 2020 KeyNotes of Cognitive Core for Robot Learning by Josh Tenenbaum
 
 
 
@@ -298,17 +336,15 @@
 
 
 
-- Generative Neural Scene Representationsfor 3D-Aware Image Synthesis
+#### Generative Neural Scene Representationsfor 3D-Aware Image Synthesis
 
   - By Andreas Geiger from MPI
     - We need control over the image generation process ! 
-    
     - Goal:
       - generate photorealistic images
       - control individual objects, appearance, pose, size in 3D
       - novel view image synthesis
       - train from raw images without pose information
-      
     - representation used ?
       - voxel (PlanoticGAN, iccv2019)
         - sample -> voxel 3D -> render
@@ -317,19 +353,64 @@
         - sample -> deep voxel(feature) -> NN + render
       - generative radiance field
         - sample -> radiance field -> render
-      
     - GRAF: 
     - Train  
       
       -  ![image-20220102204848958](C:\Users\38433\AppData\Roaming\Typora\typora-user-images\image-20220102204848958.png)
-      
     - GIRAFFE : compositional  3d-aware representation
-    
     - CAMPARI: Camera-Aware Decomposed Generative Neural Radiance Fields
     
+
+
+
+
+
+#### Towards Causal Representation Learning
+
+- By Bengio, 2020
+
+- Gap between current ML and HUMAN-LEVEL AI
+
+  - causality, inference, explain things happening
+
+- Compositionality helps IID AND OOD Generalization
+
+  - Systematic Generalization
+  - E.G. driving in a new city, science fiction (combination of seen objects)
+
+- Conscious Processing Helps Humans Deal With OOD
+
+  - FACED WITH NEW SITUATIONS, HUMANS CAN CALL UP ON-THE-FLY KNOWLEDGES AND USE THEM TO INFERENCE AND MAKE SOLUTIONS
+  - AGENTS FACE NON-STATIONARITIES
+
+- TWO Systems : Sys1 vs Sys2 (By Daniel Kahneman)
+
+  - Sup:
+
+    - ```
+      Israeli-American psychologist and Nobel Laureate Daniel Kahneman is the founding father of modern behavioral economics. His work has influenced how we see thinking, decisions, risk, and even happiness.
       
-  
-  
+      In Thinking, Fast and Slow, his “intellectual memoir,” he shows us in his own words some of his enormous body of work.
+      
+      Part of that body includes a description of the “machinery of … thought,” which divides the brain into two agents, called System 1 and System 2, which “respectively produce fast and slow thinking.” For our purposes, these can also be thought of as intuitive and deliberate thought.
+      
+      
+      ```
+
+    - System1: intuitive, simple, one-step logic, fast, on-effort (current DL)
+
+    - System2: conscious, complex, logic, slow, hard (future DL)
+
+- SOME sys2 inductive priors:
+
+  - Sparse factor graph in space of high-level semantic variables
+  - Semantic variables are causal: agents, intentions, controllable objects
+  - 
+
+
+
+
+
 
 
 
