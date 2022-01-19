@@ -7,19 +7,19 @@
          * [Point-Voxel CNN for Efficient 3D Deep Learning<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#point-voxel-cnn-for-efficient-3d-deep-learningwhite_check_mark)
          * [GRF<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#grfwhite_check_mark)
          * [NeX<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#nexwhite_check_mark)
-         * [pixel-NeRF<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#pixel-nerfwhite_check_mark)
+         * [pixel-NeRF<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png"> ✅</g-emoji>](#pixel-nerfwhite_check_mark)
          * [Plenoxels: Radiance Fields without Neural Networks <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#plenoxels-radiance-fields-without-neural-networks-white_check_mark)
          * [D-NeRF: Neural Radiance Fields for Dynamic Scenes (CVPR2021)<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#d-nerf-neural-radiance-fields-for-dynamic-scenes-cvpr2021white_check_mark)
          * [PlenOctTree <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#plenocttree-white_check_mark)
-         * [GRAF: Generative Radiance Fields for 3D-Aware Image Synthesis <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#graf-generative-radiance-fields-for-3d-aware-image-synthesis-white_check_mark)
-         * [Girrafe: Representing Scenes as Compositional Generative Neural Feature Fields <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#girrafe-representing-scenes-as-compositional-generative-neural-feature-fields-white_check_mark)
-         * [CAMPARI: Camera-Aware Decomposed Generative Neural Radiance Fields<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png"> ✅</g-emoji>](#campari-camera-aware-decomposed-generative-neural-radiance-fieldswhite_check_mark)
+         * [GRAF: Generative Radiance Fields for 3D-Aware Image Synthesis <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#graf-generative-radiance-fields-for-3d-aware-image-synthesis-white_check_mark)         * [Girrafe: Representing Scenes as Compositional Generative Neural Feature Fields <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#girrafe-representing-scenes-as-compositional-generative-neural-feature-fields-white_check_mark)
+         * [CAMPARI: Camera-Aware Decomposed Generative Neural Radiance Fields<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#campari-camera-aware-decomposed-generative-neural-radiance-fieldswhite_check_mark)
          * [GRAM: Generative Radiance Manifolds for 3D-Aware Image Generation (MSRA)](#gram-generative-radiance-manifolds-for-3d-aware-image-generation-msra)
          * [Fast and Explicit Neural View Synthesis (WACV2021)<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#fast-and-explicit-neural-view-synthesis-wacv2021white_check_mark)
          * [Moving SLAM: Fully Unsupervised Deep Learning in Non-Rigid Scenes（ <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Vedaldi%2C+A" rel="nofollow">Andrea Vedaldi</a>）](#moving-slam-fully-unsupervised-deep-learning-in-non-rigid-scenes-andrea-vedaldi)
          * [Unsupervised Discovery of 3D Physical Objects From Video （jiajun group)](#unsupervised-discovery-of-3d-physical-objects-from-video-jiajun-group)
          * [BANMo: Building Animatable 3D Neural Models from Many Casual Videos](#banmo-building-animatable-3d-neural-models-from-many-casual-videos)
          * [Video Autoencoder: self-supervised disentanglement of static 3D structure and motion （Xiaolong Group, ICCV-2021）<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#video-autoencoder-self-supervised-disentanglement-of-static-3d-structure-and-motion-xiaolong-group-iccv-2021white_check_mark)
+         * [Neural Radiance Flow for 4D View Synthesis and Video Processing （Josh Group, ICCV2021）](#neural-radiance-flow-for-4d-view-synthesis-and-video-processing-josh-group-iccv2021)
       * [ViT pretrain](#vit-pretrain)
       * [Video Understanding / Motion Analysis](#video-understanding--motion-analysis)
          * [Learning Motion Priors for 4D Human Body Capture in 3D Scenes](#learning-motion-priors-for-4d-human-body-capture-in-3d-scenes)
@@ -32,19 +32,33 @@
       * [Syntactic Learning](#syntactic-learning)
          * [Enhancing Machine Translation with Dependency-Aware Self-Attention <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#enhancing-machine-translation-with-dependency-aware-self-attention-white_check_mark)
       * [Machine Translation](#machine-translation)
+   * [Multi-modal](#multi-modal)
+      * [Video, Audio, Text](#video-audio-text)
+         * [One-shot Talking Face Generation from Single-speaker Audio-Visual Correlation Learning <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#one-shot-talking-face-generation-from-single-speaker-audio-visual-correlation-learning-white_check_mark)
+   * [Adversarial Training &amp; OoD &amp; Causal Inference](#adversarial-training--ood--causal-inference)
+      * [Adversarial Training](#adversarial-training)
+         * [Geometry-aware Instance-reweighted Adversarial Training](#geometry-aware-instance-reweighted-adversarial-training)
+      * [OoD](#ood)
+         * [OoD-Bench](#ood-bench)
+         * [DecAug](#decaug)
+         * [AIL (CVPR2021)](#ail-cvpr2021)
    * [Robot Learning](#robot-learning)
       * [RL-based](#rl-based)
          * [CURL: Contrastive Unsupervised Representations for Reinforcement Learning <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#curl-contrastive-unsupervised-representations-for-reinforcement-learning-white_check_mark)
          * [Dynamics Learning with Cascaded Variational Inference for Multi-Step Manipulation (CoRL 2019) <g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#dynamics-learning-with-cascaded-variational-inference-for-multi-step-manipulation-corl-2019-white_check_mark)
       * [Dynamic-based](#dynamic-based)
-         * [Learning to Simulate Complex Physics with Graph Networks](#learning-to-simulate-complex-physics-with-graph-networks)
+         * [(ICML 2018, DeepMind)Graph Networks as Learnable Physics Engines for Inference and Control](#icml-2018-deepmindgraph-networks-as-learnable-physics-engines-for-inference-and-control)
+         * [(ICML 2020, DeepMind) Learning to Simulate Complex Physics with Graph Networks<g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji>](#icml-2020-deepmind-learning-to-simulate-complex-physics-with-graph-networkswhite_check_mark)
          * [Realtime Trajectory Smoothing with Neural Nets](#realtime-trajectory-smoothing-with-neural-nets)
          * [Garment Similarity Network (GarNet): A Continuous Perception Robotic Approach for Predicting Shapes and Visually Perceived Weights of Unseen Garments](#garment-similarity-network-garnet-a-continuous-perception-robotic-approach-for-predicting-shapes-and-visually-perceived-weights-of-unseen-garments)
-         * [Learning Mesh Based Simulation with Graph Neural Networks (ICLR2021 outstanding paper awards)](#learning-mesh-based-simulation-with-graph-neural-networks-iclr2021-outstanding-paper-awards)
+         * [(ICLR2021 outstanding paper awards, DeepMind) Learning Mesh Based Simulation with Graph Neural Networks](#iclr2021-outstanding-paper-awards-deepmind-learning-mesh-based-simulation-with-graph-neural-networks)
          * [Garment Similarity Network (GarNet): A Continuous Perception Robotic Approach for Predicting Shapes and Visually Perceived Weights of Unseen Garments](#garment-similarity-network-garnet-a-continuous-perception-robotic-approach-for-predicting-shapes-and-visually-perceived-weights-of-unseen-garments-1)
-   * [Multi-modal](#multi-modal)
+   * [Multi-modal](#multi-modal-1)
       * [Generalized Learning / Intuitive Physics / Cognition](#generalized-learning--intuitive-physics--cognition)
 * [Conference Tutorials / Lectures](#conference-tutorials--lectures)
+         * [MIT Deep Learning Seminar highlighting recent work (January 2020) by Animesh Garg](#mit-deep-learning-seminar-highlighting-recent-work-january-2020-by-animesh-garg)
+         * [RSS 2020 KeyNotes of Cognitive Core for Robot Learning by Josh Tenenbaum](#rss-2020-keynotes-of-cognitive-core-for-robot-learning-by-josh-tenenbaum)
+         * [Generative Neural Scene Representationsfor 3D-Aware Image Synthesis](#generative-neural-scene-representationsfor-3d-aware-image-synthesis)
 
 ## Vision
 
@@ -139,7 +153,7 @@
 
 
 
-
+#### Neural Radiance Flow for 4D View Synthesis and Video Processing （Josh Group, ICCV2021）
 
 
 
@@ -205,6 +219,24 @@
   - head pose predictor
   - adversarial training
   - ...
+
+
+
+## Adversarial Training & OoD & Causal Inference
+
+### Adversarial Training
+
+####  Geometry-aware Instance-reweighted Adversarial Training
+
+### OoD
+
+#### OoD-Bench
+
+#### DecAug
+
+
+
+#### AIL (CVPR2021)
 
 
 
