@@ -203,8 +203,6 @@
 
 
 
-
-
 ## Multi-modal
 
 ### Video, Audio, Text
@@ -329,6 +327,13 @@
 - Modeling Expectation Violation in Intuitive Physics with Coarse Probabilistic Object Representations (2019 Josh Group)
 
 
+
+
+## Other ML papers
+
+### Sequential
+
+- EFFICIENTLY MODELING LONG SEQUENCES WITH STRUCTURED STATE SPACES (4S) from Stanford
 
 
 # Conference Tutorials / Lectures
