@@ -174,6 +174,9 @@
 
 ### Unsupervised Learning
 
+## Invariant Information Clustering for Unsupervised Image Classification and Segmentation
+   - VGG, Mutual Information Loss for Clustering
+
 
 
 
@@ -334,6 +337,9 @@
 ### Sequential
 
 - EFFICIENTLY MODELING LONG SEQUENCES WITH STRUCTURED STATE SPACES (4S) from Stanford
+
+
+
 
 
 # Conference Tutorials / Lectures
