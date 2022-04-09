@@ -307,7 +307,7 @@
 
 
 
-
+#### Deep Dynamics Models for Learning Dexterous Manipulation (MPPI)
 
 
 
