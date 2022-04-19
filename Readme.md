@@ -257,7 +257,10 @@
     - low level task : actions -> subgoals a~p(s_t|s, c, z) 
 - learn from task-agnostic manipulations
 - Reinforcement and Imitation Learning for Diverse Visuomotor Skills (2018)
-- 
+
+
+####  You Only Demonstrate Once: Category-Level Manipulation from Single Visual Demonstration
+   - 
 
 ### Dynamic-based
 
