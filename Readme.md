@@ -313,6 +313,10 @@
 #### Deep Dynamics Models for Learning Dexterous Manipulation (MPPI)
 
 
+#### BundleTrack: 6D Pose Tracking for Novel Objects without Instance or Category-Level 3D Models
+  - generalized 6-D pose tracking 
+
+
 
 ## Multi-modal
 
